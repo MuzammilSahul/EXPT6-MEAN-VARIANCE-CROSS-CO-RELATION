@@ -1,6 +1,6 @@
 # EXPT6-MEAN-VARIANCE-CROSS-CO-RELATION
 
-AIM:
+## AIM:
 
 To write a program for mean, variance and cross correlation in SCILAB and verify the output.
 
@@ -11,7 +11,7 @@ EQUIPMENTS Needed:
 •	SCI LAB
 
 
-Algorithm:
+## Algorithm:
 
 1.	Define	the	Function:	Specify the	function	you	want	to	simulate.	For	example, f(x)=sin⁡(x)f(x) = \sin(x)f(x)=sin(x) or any other function.
    
@@ -23,7 +23,7 @@ Algorithm:
    
 5.	Display Results: Output the computed mean variance and Cross Correlation
    
-PROCEDURE:
+## PROCEDURE:
 
 •	Refer Algorithms and write code for the experiment.
 
@@ -40,7 +40,7 @@ PROCEDURE:
 •	Verify the generated results
 
 
-PROGRAM:
+## PROGRAM:
 
 clear;
 
@@ -123,7 +123,7 @@ r=corr(x,y,n1);
 
 plot2d3('gnn',r);
 
-OUTPUT:
+## OUTPUT:
 
  
  
@@ -136,6 +136,6 @@ OUTPUT:
 
 
 
-RESULT:
+## RESULT:
 
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
