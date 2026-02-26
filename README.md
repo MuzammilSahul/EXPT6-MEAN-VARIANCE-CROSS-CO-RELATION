@@ -26,47 +26,84 @@ Algorithm
 
 PROGRAM
 clear;
+
 clc;
+
 clear;
+
 X=f(x)
+
   z=4*(1-x)^3
+  
   X=x*z
-endfunction
+  
+  endfunction
+
 a=0;
+
 b=1;
+
 EX=intg(a,b,f);
+
 Y=c(y);
+
   z=4*(1-y)^3;
+  
   Y=y*z;
+  
 endfunction EY=intg(a,b,c);
+
 disp(EX,"i)Mean of X =")
+
 disp(EY," Mean of Y =")
 
 
 Variance
+
 function X=g(x),
+
   z=4*(1-x)^3,
+  
   X=x^2*z
+  
 endfunction
+
 a=0;
+
 b=1;
+
 EX2=intg(a,b,g); 
+
 function Y=h(y)
+
   z=3*(1-y)^2,
+  
   Function Y=y^2*z
+  
 endfunction
+
 EY2=intg(a,b,h);
+
 vX2=EX2-(EX)^2;
+
 vY2=EY2-(EY)^2;
+
 disp(vX2,"ii)Variance of X");
+
 disp(vY2," Variance of Y");
+
 Cross Correlation
 
 x= input("type in the reference sequence="); 
+
 y= input("type in the second sequence="); 
+
 n1=max(size(y))-1;
+
 n2=max(size(x))-1;
+
 r=corr(x,y,n1);
+
 plot2d3('gnn',r);
 
 OUTPUT
