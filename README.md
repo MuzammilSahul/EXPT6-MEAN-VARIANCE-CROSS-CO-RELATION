@@ -121,7 +121,7 @@ r=corr(x,y,n1);
 
 plot2d3('gnn',r);
 
-OUTPUT
+OUTPUT:
 
  
  
