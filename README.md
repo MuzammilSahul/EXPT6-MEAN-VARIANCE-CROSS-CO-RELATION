@@ -125,6 +125,9 @@ plot2d3('gnn',r);
 
 ## OUTPUT:
 ![WhatsApp Image 2026-03-30 at 17 58 00 (1)](https://github.com/user-attachments/assets/424baba3-306f-45cb-9769-1647ddba2113)
+![WhatsApp Image 2026-03-30 at 17 57 59 (1)](https://github.com/user-attachments/assets/6bed7cb7-a7e9-475b-8aa5-9a111e97bf37)
+![WhatsApp Image 2026-03-30 at 17 58 00](https://github.com/user-attachments/assets/8ac33c24-8172-41ba-a07e-cb508453a02d)
+![WhatsApp Image 2026-03-30 at 17 57 59](https://github.com/user-attachments/assets/12663378-5e41-4769-b520-23948a570d22)
 
  
  
