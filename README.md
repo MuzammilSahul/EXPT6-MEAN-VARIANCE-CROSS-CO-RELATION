@@ -124,6 +124,7 @@ r=corr(x,y,n1);
 plot2d3('gnn',r);
 
 ## OUTPUT:
+![WhatsApp Image 2026-03-30 at 17 58 00 (1)](https://github.com/user-attachments/assets/424baba3-306f-45cb-9769-1647ddba2113)
 
  
  
